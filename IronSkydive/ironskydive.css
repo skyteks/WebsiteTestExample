@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    font: Roboto;
+    size: 10px;
+    line-height: 3.5em;
+    weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font: Roboto Condensed;
+}
+
+h1 {
+    size: 9em;
+    align: center;
+    transform: uppercase;
+}
+
+h2 {
+    size: 5em;
+    align: center;
+    transform: uppercase;
+    line-height: 4em;
+}
+
+h3 {
+    size: 4.2em;
+    align: center;
+    line-height: 1em;
+}
+
+h4 {
+    size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+
+h5 {
+    size: 1.2em;
+    line-height: 1em;
+}
+
+#general-information {
+
+}
+
+#structure {
+
+}
+
+#team {
+
+}
+
+#schedule {
+    
+}
