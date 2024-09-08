@@ -4,11 +4,10 @@ html,
 body {
     margin: 0;
     padding: 0;
-
-    font: Roboto;
-    size: 10px;
+    font-family: Roboto;
+    font-size: 10px;
     line-height: 3.5em;
-    weight: 300;
+    font-weight: 300;
 }
 
 h1,
@@ -17,51 +16,142 @@ h3,
 h4,
 h5,
 h6 {
-    font: Roboto Condensed;
+    font-family: Roboto;
 }
 
 h1 {
-    size: 9em;
-    align: center;
-    transform: uppercase;
+    font-size: 9em;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h2 {
-    size: 5em;
-    align: center;
-    transform: uppercase;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
     line-height: 4em;
 }
 
 h3 {
-    size: 4.2em;
-    align: center;
+    font-size: 4.2em;
+    text-align: center;
     line-height: 1em;
 }
 
 h4 {
-    size: 1.5em;
+    font-size: 1.5em;
     letter-spacing: 0.4px;
     line-height: 1em;
 }
 
 h5 {
-    size: 1.2em;
+    font-size: 1.2em;
     line-height: 1em;
 }
 
-#general-information {
-
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-#structure {
-
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
 }
 
-#team {
-
+.nav-bar {
+    background-color: rgb(25, 33, 41);
+    color: white;
 }
 
-#schedule {
-    
+.header {
+    height: 650px;
+    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.header h2 {
+    color: white;
+    text-shadow: #020819 8px -20px 9px;
+}
+
+.quote {
+    font-size: 2.5em;
+}
+
+.dark-background {
+    background-color: rgb(25, 33, 41);
+    color: white;
+}
+
+.link-btn {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: Roboto Condensed;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.service-box img {
+    width: 125px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.footer a {
+    color: rgb(67, 163, 230);
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.address {
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+#general-information {}
+
+#general-information .text {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+#structure {}
+
+#team {}
+
+#team .section-text {
+    font-size: 1.9em;
+}
+
+#team .member-name {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#team img {
+    width: 250px;
+    height: 180px;
+}
+
+#schedule {}
