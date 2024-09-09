@@ -53,6 +53,8 @@ h5 {
 .nav-bar ul {
     width: 1200px;
     margin: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav-bar li {
@@ -78,6 +80,7 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
+    position:  relative;
 }
 
 .header h2 {
@@ -87,6 +90,9 @@ h5 {
 
 .quote {
     font-size: 2.5em;
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
 }
 
 .container {
@@ -108,6 +114,7 @@ h5 {
     letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
+    padding: 10px 30px 10px 30px;
 }
 
 .service-box {
@@ -129,8 +136,11 @@ h5 {
 .footer {
     text-align: center;
     font-size: 1.9em;
-    pad: 40px 100px 100px 40px;
+    padding: 40px 100px 40px 100px;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer a {
@@ -155,6 +165,11 @@ h5 {
     margin-bottom: 30px;
 }
 
+.map-frame{
+    height: 375px;
+    width: 60%;
+}
+
 .schedule-table {
     margin: 0 auto 40px auto;
     font-size: 1.5em;
@@ -168,13 +183,22 @@ h5 {
 }
 
 .schedule-table td {
-    padding: 5px 10px 10px 5px;
+    padding: 5px 10px 5px 10px;
     text-align: center;
 }
 
+#general-information {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
 
-
-#general-information {}
+#general-information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
 
 #general-information .text {
     font-size: 2em;
@@ -186,9 +210,29 @@ h5 {
 
 #structure {}
 
+#structure div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 #team {
     padding: 75px 0;
     margin: 0 auto;
+    text-align: center;
+}
+
+#team div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#team div article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #team p {
