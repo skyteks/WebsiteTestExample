@@ -103,7 +103,6 @@
     <!--SECTION 4-->
     <section id="schedule" class="container">
         <h3>Schedule</h3>
-        <h3>Schedule a Time Slot</h3>
         <table class="schedule-table" cellpadding="0" cellspacing="0">
             <thead>
                 <th>Time</th>
@@ -144,6 +143,22 @@
                 </tr>
             </tbody>
         </table>
+        <h3>Schedule a Time Slot</h3>
+        <form class="slot-form" action="/register" method="post">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <label for="participants">Participants</label>
+            <input type="number" id="participants" placeholder="Number of participants" min="1">
+            <label for="date">Date</label>
+            <input type="date" id="date">
+            <label for="time">Time</label>
+            <select id="time">
+                <option value="early">9:00 - 11:00</option>
+                <option value="mid">12:00 - 14:00</option>
+                <option value="late">15:00 - 17:00</option>
+            </select>
+            <button type="submit">Reserve Your Slot!</button>
+        </form>
     </section>
     <!--FOOTER-->
     <footer class="dark-background footer">

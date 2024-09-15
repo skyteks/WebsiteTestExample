@@ -80,7 +80,7 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
-    position:  relative;
+    position: relative;
 }
 
 .header h2 {
@@ -165,7 +165,7 @@ h5 {
     margin-bottom: 30px;
 }
 
-.map-frame{
+.map-frame {
     height: 375px;
     width: 60%;
 }
@@ -177,14 +177,41 @@ h5 {
 
 .schedule-table th,
 .schedule-table td {
+    border-bottom: 1px;
     border-style: solid;
-    /*weight: 1px;*/
-    color: black;
+    border-color: black;
+    padding: 5px 10px;
+    text-align: center;
 }
 
-.schedule-table td {
-    padding: 5px 10px 5px 10px;
+.slot-form {
+    width: 40%;
+    margin: 18px auto 0 auto;
+    font-size: 1.5em;
     text-align: center;
+}
+
+.slot-form label {
+    line-height: 15px;
+    margin: 5px;
+}
+
+.slot-form input,
+.slot-form select{
+    height: 20px;
+    outline: none;
+    padding: 3px;
+    width: 100%;
+}
+
+.slot-form button{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    background-color: white;
+    padding: 9px;
+    margin-top: 15px;
 }
 
 #general-information {
@@ -210,7 +237,7 @@ h5 {
 
 #structure {}
 
-#structure div{
+#structure div {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -228,7 +255,7 @@ h5 {
     justify-content: space-evenly;
 }
 
-#team div article{
+#team div article {
     display: flex;
     justify-content: center;
     flex-direction: column;
